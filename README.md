@@ -115,14 +115,24 @@ before an index is loaded, all without crashing.
 
 ## 4. Setup
 
-### 1) Create and activate a virtual environment (recommended)
+### 1) Access this code repository
+
+If you are marking this submission on another machine, clone the repository and
+open the project folder:
+
+```bash
+git clone https://github.com/danielifergan12/Comp3011Assesment2.git
+cd Comp3011Assesment2
+```
+
+### 2) Create and activate a virtual environment (recommended)
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 2) Install dependencies
+### 3) Install dependencies
 
 ```bash
 python3 -m pip install -r requirements.txt
